@@ -47,13 +47,13 @@ while not udah :
 	print(l[0].upper(),' : ',l[1])
 	while True:
 		print('')
-		cek = input('Setuju? [y/n] : ')
+		cek = input('Refresh? [y/n] : ')
 		if(cek == 'y' or cek == 'Y' or cek == 'n' or cek == 'N'):
 			break
 	if cek == 'y' or cek == 'Y':
 		udah = True
 	else :
-		history.append(l[0])
+		history.append(l)
 clear()
 print('')
 print(l[0].upper(),' : ',l[1])
